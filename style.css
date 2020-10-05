@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(sky4.jpg);
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+#result {
+    color: yellow;
+    position: absolute;
+    top: 25px;
+    left: 48%;
+}
+
+.shooter {
+    background-image: url('shooter3.png');
+}
+
+.invader {
+    background-image: url('invader3.png');
+    z-index: +2;
+}
+
+.boom {
+    background-image: url('boom3.png');
+}
+
+.laser {
+    background-image: url('laser3.png');
+}
